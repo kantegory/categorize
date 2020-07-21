@@ -4,8 +4,8 @@ from setuptools import setup
 classifiers_list = [
     "Development Status :: 4 - Beta",
     "Environment :: Plugins",
-    "Operating System :: Ubuntu",
-    "Programming Language :: Python 3.6.9",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.6",
     "Topic :: System",
     "Topic :: Utilities",
     {
@@ -24,7 +24,7 @@ setup(
     long_description=open(README).read(),
     author="Dobryakov David",
     author_email="kantegory@etersoft.ru",
-    url="https://github.com/kantegory/file_sorter",
+    url="https://github.com/kantegory/file-sorter",
     license="ISC",
     packages=['file_sorter'],
     entry_points={
