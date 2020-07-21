@@ -13,5 +13,17 @@ $ file-sorter --directory /path/to/your/directory
 Show all categories and extensions:
 
 ```bash
-$ file-sorter --show
+$ file-sorter-config --show
+```
+
+Edit pattern name:
+
+```bash
+$ file-sorter-config --edit-name pattern_name new_name
+```
+
+Edit extensions for pattern name:
+
+```bash
+$ file-sorter-config --edit-ext pattern_name
 ```
