@@ -1,2 +1,2 @@
 include LICENSE
-include file_sorter/categories.ini
+include categorize/categories.ini

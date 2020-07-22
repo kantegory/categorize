@@ -15,8 +15,6 @@ class Config:
         if filename:
             self.filename = filename
 
-        print(self.filename)
-
         self.config.read(self.filename)
 
     def get_categories(self):

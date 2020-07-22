@@ -18,19 +18,20 @@ classifiers_list = [
 README = os.path.join(os.path.dirname(__file__), "README.md")
 
 setup(
-    name="file-sorter", 
+    name="categorize", 
     version="0.1.0",
-    description="File sorter is a simple tool for automation sorting your files by their extensions.",
+    description="Categorize is a simple, customizable CLI-tool for automation sorting your files by their extensions.",
     long_description=open(README).read(),
+    long_description_content_type='text/markdown',
     author="Dobryakov David",
     author_email="kantegory@etersoft.ru",
-    url="https://github.com/kantegory/file-sorter",
+    url="https://github.com/kantegory/categorize",
     license="ISC",
-    packages=['file_sorter'],
+    packages=['categorize'],
     entry_points={
         "console_scripts": [
-            "file-sorter = file_sorter.file_sorter:main",
-            "file-sorter-config = file_sorter.config:main",
+            "categorize = categorize.sorter:main",
+            "categorize-config = categorize.config:main",
         ]
     },
     classifiers=classifiers_list,

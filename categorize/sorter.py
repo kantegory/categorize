@@ -1,6 +1,6 @@
 import os
 from argparse import ArgumentParser as ap
-from file_sorter.config import Config
+from categorize.config import Config
 import re
 
 

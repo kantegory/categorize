@@ -1,13 +1,13 @@
-# File sorter
+# Categorize
 
-File sorter is a simple tool for automation sorting your files by their extensions. 
+Categorize is a simple, customizable CLI-tool for automation sorting your files by their extensions.
 
 ## Installing
 
-Clone the repo:
+From sources. Clone the repo:
 
 ```bash
-$ git clone https://github.com/kantegory/file-sorter.git
+$ git clone https://github.com/kantegory/categorize.git
 ```
 
 Install package:
@@ -18,30 +18,35 @@ $ make install
 
 That's all, you awesome!
 
+Or from pip:
+```bash
+$ pip install categorize
+```
+
 ## Usage
 
 Sorting:
 
 ```bash
-$ file-sorter --directory /path/to/your/directory
+$ categorize --directory /path/to/your/directory
 ```
 
 Show all categories and extensions:
 
 ```bash
-$ file-sorter-config --show
+$ categorize-config --show
 ```
 
 Edit pattern name:
 
 ```bash
-$ file-sorter-config --edit-name pattern_name new_name
+$ categorize-config --edit-name pattern_name new_name
 ```
 
 Edit extensions for pattern name:
 
 ```bash
-$ file-sorter-config --edit-ext pattern_name
+$ categorize-config --edit-ext pattern_name
 ```
 
 ## Contacts
