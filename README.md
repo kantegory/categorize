@@ -49,6 +49,12 @@ Edit extensions for pattern name:
 $ categorize-config --edit-ext pattern_name
 ```
 
+Add new pattern:
+
+```bash
+$ categorize-config --add pattern_name
+```
+
 ## Contacts
 
 [Email me](mailto:kantegory.etersoft.ru), or contact me in [telegram](https://t.me/kantegory).
